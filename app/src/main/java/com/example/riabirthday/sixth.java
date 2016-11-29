@@ -40,7 +40,7 @@ public class sixth extends AppCompatActivity {
 
             }}); }
     public void next5(View view){
-        Intent intent=new Intent(this,khatervideo.class);
+        Intent intent=new Intent(this,khatervoicenote.class);
         startActivity(intent);
 
 

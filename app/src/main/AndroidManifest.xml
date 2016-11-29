@@ -38,7 +38,19 @@
         <activity android:name=".ashray1" />
         <activity android:name=".ashray2" />
         <activity android:name=".ashrayvoicenote" />
-        <activity android:name=".ashrayvideo"></activity>
+        <activity android:name=".ashrayvideo" />
+        <activity android:name=".chachivoicenote" />
+        <activity android:name=".shail1" />
+        <activity android:name=".shailvoicenote" />
+        <activity android:name=".shailvideo" />
+        <activity android:name=".ninth" />
+        <activity android:name=".friendsvideo" />
+        <activity android:name=".manasi1" />
+        <activity android:name=".manasi2" />
+        <activity android:name=".manasi3" />
+        <activity android:name=".manasi4" />
+        <activity android:name=".khatervoicenote" />
+        <activity android:name=".chachivideo"></activity>
     </application>
 
 </manifest>
