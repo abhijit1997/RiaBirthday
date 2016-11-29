@@ -1,6 +1,7 @@
 package com.example.riabirthday;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
@@ -24,6 +25,8 @@ public class Second extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_second);
+
+
 
         final  Button test = (Button) findViewById(R.id.pune);
         test.setOnClickListener(new Button.OnClickListener() {

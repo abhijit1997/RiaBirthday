@@ -15,7 +15,7 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:layout_marginTop="10dp"
-        android:text= "Yo?"
+        android:text= "Bling night at orientation?"
         android:textSize="15dp"
 
         android:id="@+id/textView"
@@ -30,16 +30,16 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Finding Dory"
-            android:id="@+id/pune"
+            android:text="Stars"
+            android:id="@+id/kkr"
             android:layout_marginTop="60dp"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Conjuring 2"
+            android:text="Charmi"
             android:layout_marginTop="60dp"
-            android:id="@+id/kkr"
+            android:id="@+id/pune"
 
             />
 
@@ -53,14 +53,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Te3nnn"
+            android:text= "Night Suit"
             android:id="@+id/Te3n"
             android:layout_marginTop="60dp"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="None Of These"
+            android:text="Tents"
             android:layout_marginTop="60dp"
             android:id="@+id/notpp"
 

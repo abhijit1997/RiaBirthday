@@ -1,6 +1,9 @@
 package com.example.riabirthday;
 
 import android.content.Intent;
+import android.graphics.PixelFormat;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
@@ -10,8 +13,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
+import android.widget.VideoView;
 
 public class third extends AppCompatActivity {
+
 
     private PopupWindow popupWindow;
     private LayoutInflater layoutInflater;
@@ -19,11 +24,15 @@ public class third extends AppCompatActivity {
     private LinearLayout activity_main;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content_third);
+
+
+
 
         final  Button test = (Button) findViewById(R.id.never);
         test.setOnClickListener(new Button.OnClickListener() {
@@ -46,11 +55,14 @@ public class third extends AppCompatActivity {
             }});
     }
     public void next(View view){
-        Intent intent=new Intent(this,fourth.class);
+        Intent intent=new Intent(this,fifth.class);
         startActivity(intent);
 
 
     }
+
+
+
 }
 
 

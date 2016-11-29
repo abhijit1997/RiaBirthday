@@ -8,73 +8,11 @@
     android:orientation="vertical"
     android:weightSum="1">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="69dp"
-        android:textColor="@android:color/holo_red_dark"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:layout_marginTop="10dp"
-        android:text= "First meeting at bakers,Which movie was i supposed to go for?"
-        android:textSize="15dp"
 
-        android:id="@+id/textView"
-        android:layout_weight="0.42" />
-
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="1">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Finding Dory"
-            android:id="@+id/somu"
-            android:layout_marginTop="60dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Conjuring 2"
-            android:layout_marginTop="60dp"
-            android:id="@+id/abhi"
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="266dp"
-        android:weightSum="1">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Te3n"
-            android:id="@+id/Te3n"
-            android:layout_marginTop="60dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="None Of These"
-            android:layout_marginTop="60dp"
-            android:id="@+id/nott"
-
-            />
-
-        <Button
-            android:layout_marginBottom="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="63dp"
-            android:text="next"
-            android:id="@+id/next"
-            android:layout_marginTop="150dp"
-
-            android:onClick="next"
-            android:layout_weight="0.26" />
-
-    </LinearLayout>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="BEGIN"
+    android:onClick="begin"
+    android:layout_marginTop="460dp"/>
 </LinearLayout>

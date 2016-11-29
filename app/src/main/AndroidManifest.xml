@@ -23,7 +23,22 @@
             android:name=".third"
             android:label="@string/title_activity_third"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".fourth"></activity>
+        <activity android:name=".fifth" />
+        <activity android:name=".sixth" />
+        <activity android:name=".khatervideo" />
+        <activity android:name=".seventh" />
+        <activity android:name=".sarkarvoicenote" />
+        <activity android:name=".eight" />
+        <activity android:name=".aayush1" />
+        <activity android:name=".aayush2" />
+        <activity android:name=".aayush3" />
+        <activity android:name=".aayush4" />
+        <activity android:name=".aayushvoicenote" />
+        <activity android:name=".aayushvideo" />
+        <activity android:name=".ashray1" />
+        <activity android:name=".ashray2" />
+        <activity android:name=".ashrayvoicenote" />
+        <activity android:name=".ashrayvideo"></activity>
     </application>
 
 </manifest>

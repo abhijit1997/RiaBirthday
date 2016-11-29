@@ -9,12 +9,12 @@
     >
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:textColor="@android:color/holo_red_dark"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:text= "My life"
-        android:textSize="40dp"
+        android:text= "Where did we spend our time from AM to PM?"
+        android:textSize="20dp"
 
         />
 
@@ -26,26 +26,67 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Dead"
+            android:text="FC"
             android:id="@+id/never"
             android:layout_marginTop="60dp"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kolkata"
+            android:text="Class"
             android:layout_marginTop="60dp"
             android:id="@+id/kolkata"
 
             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:weightSum="1">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="next"
-            android:id="@+id/next"
-            android:onClick="next"
-            android:layout_marginTop="320dp"
+            android:text="Rickshaw"
+            android:id="@+id/Te3n"
+            android:layout_marginTop="60dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homework"
+            android:layout_marginTop="60dp"
+            android:id="@+id/notpp"
+
             />
 
+
+
     </LinearLayout>
+
+    <LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+
+
+android:layout_height="match_parent">
+
+        <Button
+            android:layout_marginBottom="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:text="next"
+            android:id="@+id/next"
+            android:layout_marginTop="100dp"
+
+            android:onClick="next" />
+
+
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+
+
+
 </LinearLayout>
