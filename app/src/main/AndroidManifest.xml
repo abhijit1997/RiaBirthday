@@ -50,7 +50,12 @@
         <activity android:name=".manasi3" />
         <activity android:name=".manasi4" />
         <activity android:name=".khatervoicenote" />
-        <activity android:name=".chachivideo"></activity>
+        <activity android:name=".chachivideo" />
+        <activity android:name=".manasivoicenote" />
+        <activity android:name=".gomi1" />
+        <activity android:name=".gomivoicenote" />
+        <activity android:name=".gomivid" />
+        <activity android:name=".sanjana"></activity>
     </application>
 
 </manifest>

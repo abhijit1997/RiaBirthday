@@ -1,5 +1,6 @@
 package com.example.riabirthday;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -26,6 +27,12 @@ public class friendsvideo extends AppCompatActivity {
         Uri uri = Uri.parse(videopath);
         vid2.setVideoURI(uri);
         vid2.start();
+
+
+    }
+    public void family (View view){
+        Intent intent=new Intent(this,aayush1.class);
+        startActivity(intent);
 
 
     }

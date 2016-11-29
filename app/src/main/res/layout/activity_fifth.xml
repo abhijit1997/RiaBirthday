@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Leather Jacket"
-            android:id="@+id/abhi"
+            android:id="@+id/agrf"
             android:layout_marginTop="60dp"
             />
         <Button
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:text="Final Destination"
             android:layout_marginTop="60dp"
-            android:id="@+id/notpp"
+            android:id="@+id/abhi"
 
             />
 

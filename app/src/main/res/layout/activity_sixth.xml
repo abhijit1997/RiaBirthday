@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:text="Pink Tappri"
             android:layout_marginTop="60dp"
-            android:id="@+id/abhi"
+            android:id="@+id/abhida"
             />
 
     </LinearLayout>
@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nani's Bhel"
-            android:id="@+id/Te3n"
+            android:id="@+id/abhi"
             android:layout_marginTop="60dp"
             />
         <Button

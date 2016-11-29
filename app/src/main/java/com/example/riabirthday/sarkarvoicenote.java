@@ -19,7 +19,7 @@ public class sarkarvoicenote extends AppCompatActivity {
 
     }
     public void next8(View view){
-        Intent intent=new Intent(this,aayush1.class);
+        Intent intent=new Intent(this,manasi1.class);
         startActivity(intent);
 
 

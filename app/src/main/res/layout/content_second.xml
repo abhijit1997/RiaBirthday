@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:text="Charmi"
             android:layout_marginTop="60dp"
-            android:id="@+id/pune"
+            android:id="@+id/dsad"
 
             />
 
@@ -54,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text= "Night Suit"
-            android:id="@+id/Te3n"
+            android:id="@+id/pune"
             android:layout_marginTop="60dp"
             />
         <Button
