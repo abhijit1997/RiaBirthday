@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.VideoView;
 
-public class shailvideo extends AppCompatActivity {
+public class iravid extends AppCompatActivity {
 
     Button click1;
     VideoView vid2;
@@ -16,14 +16,14 @@ public class shailvideo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_shailvideo);
+        setContentView(R.layout.activity_iravid);
         click1 = (Button) findViewById(R.id.button1);
         vid2 = (VideoView) findViewById(R.id.videoView1);
 
     }
 
     public void play(View v) {
-        String videopath = "android.resource://com.example.riabirthday/" + R.raw.shailvid;
+        String videopath = "android.resource://com.example.riabirthday/" + R.raw.asdda;
         Uri uri = Uri.parse(videopath);
         vid2.setVideoURI(uri);
         vid2.start();
@@ -31,8 +31,8 @@ public class shailvideo extends AppCompatActivity {
 
     }
 
-    public void next811(View view) {
-        Intent intent = new Intent(this, tanvi1.class);
+    public void nidhi1(View view) {
+        Intent intent = new Intent(this, nidhi1.class);
         startActivity(intent);
 
     }
