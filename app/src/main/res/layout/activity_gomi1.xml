@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -9,22 +8,65 @@
     android:orientation="vertical"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:text= "What scares ria the most?"
+        android:textSize="15dp"
 
-    <RelativeLayout
+        android:id="@+id/textView"
+        android:layout_weight="0.42" />
+
+
+    <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:weightSum="1">
-
-        <ImageView
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/quiz_background"
-            android:src="@drawable/quiz_background"
-            android:scaleType = "centerCrop"
-            android:id="@+id/imageView2"
-            android:layout_alignBottom="@+id/relativeLayout"
-            android:layout_alignStart="@+id/relativeLayout" />
+            android:text="Exam"
+            android:id="@+id/kkr"
+            android:layout_marginTop="60dp"
+            />
+
+        <Button
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:text="Terrorist Attack"
+            android:layout_marginTop="60dp"
+            android:id="@+id/aayu"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:weightSum="1">
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text= "Morning Alarm"
+            android:id="@+id/gomi1"
+            android:layout_marginTop="60dp"
+            />
+        <Button
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:text="Blackboard"
+            android:layout_marginTop="60dp"
+            android:id="@+id/notpp"
+
+            />
+
         <Button
             android:layout_marginBottom="20dp"
             android:layout_width="wrap_content"
@@ -36,57 +78,6 @@
             android:onClick="gomivoicenote"
             android:layout_weight="0.26" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Blackboard"
-            android:id="@+id/notpp"
-
-            android:layout_below="@+id/aayu"
-            android:layout_centerHorizontal="true" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text= "Morning Alarm"
-            android:id="@+id/gomi1"
-            android:layout_below="@+id/notpp"
-            android:layout_centerHorizontal="true" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Exam"
-            android:id="@+id/kkr"
-            android:layout_weight="1"
-            android:layout_below="@+id/gomi1"
-            android:layout_centerHorizontal="true" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="69dp"
-            android:textColor="@android:color/holo_red_dark"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:layout_marginTop="10dp"
-            android:text= "What scares ria the most?"
-
-            android:id="@+id/textView"
-            android:layout_weight="0.42"
-            android:textSize="20dp"
-            android:fontFamily="casual" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Terrorist Attack"
-            android:id="@+id/aayu"
-
-            android:layout_weight="1"
-            android:layout_marginTop="82dp"
-            android:layout_below="@+id/next"
-            android:layout_alignParentStart="true" />
-
-    </RelativeLayout>
+    </LinearLayout>
 
 </LinearLayout>

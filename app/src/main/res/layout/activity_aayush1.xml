@@ -50,6 +50,22 @@
             android:layout_below="@+id/notpp"
             android:layout_alignParentStart="true" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:text= "Why do we love the football world?"
+            android:textSize="20dp"
+
+            android:id="@+id/textView"
+            android:layout_weight="0.42"
+            android:fontFamily="casual"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,24 +90,8 @@
             android:layout_height="wrap_content"
             android:text="Football"
             android:id="@+id/kkr"
-            android:layout_marginTop="82dp"
+            android:layout_marginTop="60dp"
             android:layout_below="@+id/next"
-            android:layout_alignParentStart="true" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="69dp"
-            android:textColor="@android:color/holo_red_dark"
-            android:textAlignment="center"
-            android:textAllCaps="true"
-            android:text= "Why do we love the football world?"
-            android:textSize="20dp"
-
-            android:id="@+id/textView"
-            android:layout_weight="0.42"
-            android:fontFamily="casual"
-            android:layout_marginTop="15dp"
-            android:layout_alignParentTop="true"
             android:layout_alignParentStart="true" />
 
     </RelativeLayout>
