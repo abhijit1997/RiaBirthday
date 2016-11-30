@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,63 +9,36 @@
     android:orientation="vertical"
     android:weightSum="1">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="69dp"
-        android:textColor="@android:color/holo_red_dark"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:layout_marginTop="10dp"
-        android:text= "What was special New Years's Eve?"
-        android:textSize="15dp"
 
-        android:id="@+id/textView"
-        android:layout_weight="0.42" />
-
-
-    <LinearLayout
+    <RelativeLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:weightSum="1">
-        <Button
+
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Bonfire"
-            android:id="@+id/kkr"
-            android:layout_marginTop="60dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Jay Gomi"
-            android:layout_marginTop="60dp"
-            android:id="@+id/pune"
+            app:srcCompat="@drawable/quiz_background"
+            android:src="@drawable/quiz_background"
+            android:scaleType = "centerCrop"
+            android:id="@+id/imageView2"
+            android:layout_alignBottom="@+id/relativeLayout"
+            android:layout_alignStart="@+id/relativeLayout" />
 
-            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:text= "What was special New Years's Eve?"
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="266dp"
-        android:weightSum="1">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Leather Jacket"
-            android:id="@+id/agrf"
-            android:layout_marginTop="60dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Final Destination"
-            android:layout_marginTop="60dp"
-            android:id="@+id/abhi"
-
-            />
+            android:id="@+id/textView"
+            android:layout_weight="0.42"
+            android:textSize="20dp"
+            android:fontFamily="casual" />
 
         <Button
             android:layout_marginBottom="20dp"
@@ -77,6 +51,43 @@
             android:onClick="next4"
             android:layout_weight="0.26" />
 
-    </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Final Destination"
+            android:id="@+id/abhi"
 
-</LinearLayout>
+            android:layout_below="@+id/pune"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leather Jacket"
+            android:id="@+id/agrf"
+            android:layout_below="@+id/kkr"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bonfire"
+            android:id="@+id/kkr"
+            android:layout_weight="1"
+            android:layout_below="@+id/abhi"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jay Gomi"
+            android:layout_marginTop="83dp"
+            android:id="@+id/pune"
+
+            android:layout_weight="1"
+            android:layout_below="@+id/next"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
