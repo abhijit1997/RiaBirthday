@@ -55,7 +55,25 @@
         <activity android:name=".gomi1" />
         <activity android:name=".gomivoicenote" />
         <activity android:name=".gomivid" />
-        <activity android:name=".sanjana"></activity>
+        <activity android:name=".sanjana" />
+        <activity android:name=".tanvi1" />
+        <activity android:name=".tanvi2" />
+        <activity android:name=".tanvivoicenote" />
+        <activity android:name=".tanvivid" />
+        <activity android:name=".yogu1" />
+        <activity android:name=".yogu2" />
+        <activity android:name=".yogu3" />
+        <activity android:name=".yoguvoice" />
+        <activity android:name=".yoguvid" />
+        <activity android:name=".bhabhi1" />
+        <activity android:name=".bhabhivoice" />
+        <activity android:name=".isha1" />
+        <activity android:name=".ishavoice" />
+        <activity android:name=".ishavid" />
+        <activity android:name=".ira1" />
+        <activity android:name=".iravoice" />
+        <activity android:name=".iravid" />
+        <activity android:name=".nidhi1"></activity>
     </application>
 
 </manifest>
