@@ -75,6 +75,15 @@
             android:layout_below="@+id/kkr"
             android:layout_alignParentStart="true" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Football"
+            android:id="@+id/kkr"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/next"
+            android:layout_alignParentStart="true" />
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -83,15 +92,6 @@
             android:scaleType = "centerCrop"
             android:id="@+id/imageView2"
             android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Football"
-            android:id="@+id/kkr"
-            android:layout_marginTop="60dp"
-            android:layout_below="@+id/next"
             android:layout_alignParentStart="true" />
 
     </RelativeLayout>
