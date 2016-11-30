@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,63 +9,12 @@
     android:orientation="vertical"
     android:weightSum="1">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="69dp"
-        android:textColor="@android:color/holo_red_dark"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:layout_marginTop="10dp"
-        android:text= "Bling night at orientation?"
-        android:textSize="15dp"
 
-        android:id="@+id/textView"
-        android:layout_weight="0.42" />
-
-
-    <LinearLayout
+    <RelativeLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:weightSum="1">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Stars"
-            android:id="@+id/kkr"
-            android:layout_marginTop="60dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Charmi"
-            android:layout_marginTop="60dp"
-            android:id="@+id/dsad"
-
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="266dp"
-        android:weightSum="1">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text= "Night Suit"
-            android:id="@+id/pune"
-            android:layout_marginTop="60dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tents"
-            android:layout_marginTop="60dp"
-            android:id="@+id/notpp"
-
-            />
 
         <Button
             android:layout_marginBottom="20dp"
@@ -77,6 +27,67 @@
             android:onClick="next"
             android:layout_weight="0.26" />
 
-    </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Charmi"
+            android:id="@+id/dsad"
+
+            android:layout_weight="1"
+            android:layout_below="@+id/kkr"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "Night Suit"
+            android:id="@+id/pune"
+            android:layout_below="@+id/dsad"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tents"
+            android:id="@+id/notpp"
+
+            android:layout_below="@+id/pune"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/quiz_background"
+            android:src="@drawable/quiz_background"
+            android:scaleType = "centerCrop"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:text= "Bling night at orientation?"
+
+            android:id="@+id/textView"
+            android:layout_weight="0.42"
+            android:textSize="20dp"
+            android:fontFamily="casual" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stars"
+            android:id="@+id/kkr"
+            android:layout_weight="1"
+            android:layout_marginTop="81dp"
+            android:layout_below="@+id/next"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
 
 </LinearLayout>
