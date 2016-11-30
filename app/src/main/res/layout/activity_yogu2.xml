@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:text= "What food didnt you like when you were young?"
+        android:textSize="15dp"
+
+        android:id="@+id/textView"
+        android:layout_weight="0.42" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <Button
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:text="Chinese"
+            android:id="@+id/kkr"
+            android:layout_marginTop="60dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italian"
+            android:layout_marginTop="60dp"
+            android:id="@+id/aayu"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="266dp"
+        android:weightSum="1">
+        <Button
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:text= "Continental"
+            android:id="@+id/aayu2"
+            android:layout_marginTop="60dp"
+            />
+        <Button
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:text="All Of The Above"
+            android:layout_marginTop="60dp"
+            android:id="@+id/notpp1"
+
+            />
+
+        <Button
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:text="next"
+            android:id="@+id/next"
+            android:layout_marginTop="150dp"
+
+            android:onClick="yogu3"
+            android:layout_weight="0.26" />
+
+    </LinearLayout>
+
+</LinearLayout>
