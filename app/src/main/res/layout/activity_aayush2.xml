@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,76 +9,88 @@
     android:orientation="vertical"
     android:weightSum="1">
 
-    <TextView
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="35dp">
+
+    </RelativeLayout>
+
+    <ImageView
         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/quiz_background"
+        android:src="@drawable/quiz_background"
+        android:scaleType = "centerCrop"
+        android:id="@+id/imageView2"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:layout_alignStart="@+id/relativeLayout" />
+
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="69dp"
         android:textColor="@android:color/holo_red_dark"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:layout_marginTop="10dp"
         android:text= "Your fav celebrity crush?"
-        android:textSize="15dp"
 
         android:id="@+id/textView"
-        android:layout_weight="0.42" />
+        android:layout_weight="0.42"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:textSize="20dp" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:text="next"
+        android:id="@+id/next"
+        android:layout_marginTop="82dp"
 
-    <LinearLayout
-        android:orientation="horizontal"
+        android:onClick="aayu1"
+        android:layout_weight="0.26"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:weightSum="1">
-        <Button
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:text="Your junior masterchef doppelganger"
-            android:id="@+id/kkr"
-            android:layout_marginTop="60dp"
-            />
+        android:text="Self obsessed chinky"
+        android:id="@+id/notpp"
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Taylor Swift"
-            android:layout_marginTop="60dp"
-            android:id="@+id/aayu"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
 
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="266dp"
-        android:weightSum="1">
-        <Button
-            android:layout_width="107dp"
-            android:layout_height="wrap_content"
-            android:text= "James Lafferty"
-            android:id="@+id/aayu2"
-            android:layout_marginTop="60dp"
-            />
-        <Button
-            android:layout_width="152dp"
-            android:layout_height="wrap_content"
-            android:text="Self obsessed chinky"
-            android:layout_marginTop="60dp"
-            android:id="@+id/notpp"
+        android:layout_height="wrap_content"
+        android:text= "James Lafferty"
+        android:id="@+id/aayu2"
+        android:layout_above="@+id/notpp"
+        android:layout_alignParentStart="true" />
 
-            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taylor Swift"
+        android:id="@+id/aayu"
 
-        <Button
-            android:layout_marginBottom="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="63dp"
-            android:text="next"
-            android:id="@+id/next"
-            android:layout_marginTop="150dp"
+        android:layout_above="@+id/aayu2"
+        android:layout_alignParentStart="true" />
 
-            android:onClick="aayu1"
-            android:layout_weight="0.26" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your junior masterchef doppelganger"
+        android:id="@+id/kkr"
+        android:layout_above="@+id/aayu"
+        android:layout_alignParentStart="true" />
 
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>

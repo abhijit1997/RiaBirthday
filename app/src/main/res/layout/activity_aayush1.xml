@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,64 +9,14 @@
     android:orientation="vertical"
     android:weightSum="1">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="69dp"
-        android:textColor="@android:color/holo_red_dark"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:layout_marginTop="10dp"
-        android:text= "Why do we love the football world?"
-        android:textSize="15dp"
 
-        android:id="@+id/textView"
-        android:layout_weight="0.42" />
-
-
-    <LinearLayout
+    <RelativeLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:weightSum="1">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Football"
-            android:id="@+id/kkr"
-            android:layout_marginTop="60dp"
-            />
-
-        <Button
-            android:layout_width="187dp"
-            android:layout_height="wrap_content"
-            android:text="The Little Gender Changing Role and fantasizing"
-            android:layout_marginTop="60dp"
-            android:id="@+id/aayu"
-
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="266dp"
-        android:weightSum="1">
-        <Button
-            android:layout_width="105dp"
-            android:layout_height="wrap_content"
-            android:text= "Sportsmanship"
-            android:id="@+id/Te3n"
-            android:layout_marginTop="60dp"
-            />
-        <Button
-            android:layout_width="147dp"
-            android:layout_height="wrap_content"
-            android:text="Because Ria is a player"
-            android:layout_marginTop="60dp"
-            android:id="@+id/notpp"
-
-            />
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
         <Button
             android:layout_marginBottom="20dp"
@@ -76,8 +27,73 @@
             android:layout_marginTop="150dp"
 
             android:onClick="aayush"
-            android:layout_weight="0.26" />
+            android:layout_weight="0.26" /><![CDATA[
 
-    </LinearLayout>
+        />
 
-</LinearLayout>
+        ]]>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Little Gender Changing Role and fantasizing"
+            android:id="@+id/aayu"
+
+            android:layout_below="@+id/Te3n"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "Sportsmanship"
+            android:id="@+id/Te3n"
+            android:layout_below="@+id/notpp"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:text= "Why do we love the football world?"
+            android:textSize="20dp"
+
+            android:id="@+id/textView"
+            android:layout_weight="0.42"
+            android:fontFamily="casual"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Because Ria is a player"
+            android:id="@+id/notpp"
+
+            android:layout_below="@+id/kkr"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/quiz_background"
+            android:src="@drawable/quiz_background"
+            android:scaleType = "centerCrop"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Football"
+            android:id="@+id/kkr"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/next"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
