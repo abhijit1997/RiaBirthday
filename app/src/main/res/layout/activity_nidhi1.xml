@@ -9,5 +9,51 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.riabirthday.nidhi1">
+    <TextView
+        android:text="Where does ria do all her secret hangout (If you know what i mean)?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginBottom="24dp"
+        android:onClick="nidhivoice" />
+
+    <Button
+        android:text="Streets Of Yelahanka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nidhivoice"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/dhruvi1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Washroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dhruvi1"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Hotels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_above="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp" />
 
 </RelativeLayout>

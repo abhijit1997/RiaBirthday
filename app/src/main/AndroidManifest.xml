@@ -73,7 +73,16 @@
         <activity android:name=".ira1" />
         <activity android:name=".iravoice" />
         <activity android:name=".iravid" />
-        <activity android:name=".nidhi1"></activity>
+        <activity android:name=".nidhi1" />
+        <activity android:name=".nidhivoice" />
+        <activity android:name=".nidhivid" />
+        <activity android:name=".dhruvi1" />
+        <activity android:name=".dhruvi2" />
+        <activity android:name=".dhruvi3" />
+        <activity android:name=".dhruvi4" />
+        <activity android:name=".dhruvivoice" />
+        <activity android:name=".dhruvivid" />
+        <activity android:name=".mom1"></activity>
     </application>
 
 </manifest>

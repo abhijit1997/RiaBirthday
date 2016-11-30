@@ -35,7 +35,7 @@
         android:text="The Sitting arrangemnt while playing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/iravoice"
+        android:id="@+id/dhruvi1"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="38dp" />
@@ -55,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button3"
-        android:layout_below="@+id/iravoice"
+        android:layout_below="@+id/dhruvi1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="54dp" />
 </RelativeLayout>
