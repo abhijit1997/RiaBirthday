@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_voicenote"
     android:layout_width="match_parent"
@@ -11,16 +12,16 @@
     tools:context="com.example.riabirthday.voicenote">
 
 
-    <Button
-        android:text="Next"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="106dp"
-        android:layout_marginBottom="48dp"
-        android:id="@+id/button"
-        android:onClick="next8"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/textView2" />
+        app:srcCompat="@drawable/quiz_background"
+        android:src="@drawable/quiz_background"
+        android:scaleType = "centerCrop"
+        android:id="@+id/imageView2"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:layout_alignStart="@+id/relativeLayout" />
+
 
     <TextView
         android:text="A friend who always helped us whenever we needed xD "
@@ -34,4 +35,15 @@
         android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="next8"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp" />
+
 </RelativeLayout>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -8,63 +9,12 @@
     android:orientation="vertical"
     android:weightSum="1">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="69dp"
-        android:textColor="@android:color/holo_red_dark"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:layout_marginTop="10dp"
-        android:text= "Which animal do i dream of when I think about you?"
-        android:textSize="15dp"
 
-        android:id="@+id/textView"
-        android:layout_weight="0.42" />
-
-
-    <LinearLayout
+    <RelativeLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:weightSum="1">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Dog"
-            android:id="@+id/kkr"
-            android:layout_marginTop="60dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Frog"
-            android:layout_marginTop="60dp"
-            android:id="@+id/manasi2"
-
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="266dp"
-        android:weightSum="1">
-        <Button
-            android:layout_width="183dp"
-            android:layout_height="wrap_content"
-            android:text= "Horse"
-            android:id="@+id/aayu3"
-            android:layout_marginTop="60dp"
-            />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pig"
-            android:layout_marginTop="60dp"
-            android:id="@+id/notpp"
-
-            />
 
         <Button
             android:layout_marginBottom="20dp"
@@ -77,6 +27,68 @@
             android:onClick="ashray123"
             android:layout_weight="0.26" />
 
-    </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dog"
+            android:id="@+id/kkr"
+            android:layout_weight="1"
+            android:layout_below="@+id/notpp"
+            android:layout_alignStart="@+id/notpp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frog"
+            android:id="@+id/manasi2"
+
+            android:layout_weight="1"
+            android:layout_below="@+id/kkr"
+            android:layout_alignStart="@+id/kkr" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pig"
+            android:id="@+id/notpp"
+
+            android:layout_below="@+id/aayu3"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/quiz_background"
+            android:src="@drawable/quiz_background"
+            android:scaleType = "centerCrop"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "Horse"
+            android:id="@+id/aayu3"
+            android:layout_marginTop="88dp"
+            android:layout_below="@+id/next"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:text= "Which animal do i dream of when I think about you?"
+
+            android:id="@+id/textView"
+            android:layout_weight="0.42"
+            android:textSize="20dp"
+            android:fontFamily="casual" />
+
+
+    </RelativeLayout>
 
 </LinearLayout>
