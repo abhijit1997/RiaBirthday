@@ -20,7 +20,7 @@ public class mom4 extends AppCompatActivity {
 
     }
     public void mom3 (View view){
-        Intent intent=new Intent(this,chachivideo.class);
+        Intent intent=new Intent(this,mom5.class);
         startActivity(intent);
 
 
