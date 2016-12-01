@@ -20,7 +20,7 @@ public class mom5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mom4);
+        setContentView(R.layout.activity_mom5);
 
 
         final Button test = (Button) findViewById(R.id.mom3);
