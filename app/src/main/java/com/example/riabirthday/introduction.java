@@ -32,7 +32,7 @@ public class introduction extends AppCompatActivity {
     }
 
     public void abhi1(View view) {
-        Intent intent = new Intent(this,abhi1.class);
+        Intent intent = new Intent(this,Second.class);
         startActivity(intent);
 
     }

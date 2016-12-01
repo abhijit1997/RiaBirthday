@@ -32,7 +32,7 @@ public class momvid extends AppCompatActivity {
     }
 
     public void abhiintro(View view) {
-        Intent intent = new Intent(this,introduction.class);
+        Intent intent = new Intent(this,abhi1.class);
         startActivity(intent);
 
     }
