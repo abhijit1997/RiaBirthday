@@ -90,7 +90,8 @@
         <activity android:name=".momvoice3" />
         <activity android:name=".mom6" />
         <activity android:name=".momvid" />
-        <activity android:name=".introduction"></activity>
+        <activity android:name=".introduction" />
+        <activity android:name=".abhi1"></activity>
     </application>
 
 </manifest>
