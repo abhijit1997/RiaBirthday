@@ -23,7 +23,7 @@ public class ira1 extends AppCompatActivity {
         setContentView(R.layout.activity_ira1);
 
 
-        final Button test = (Button) findViewById(R.id.dhruvi1);
+        final Button test = (Button) findViewById(R.id.iravoice);
         test.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View arg0) {

@@ -91,7 +91,28 @@
         <activity android:name=".mom6" />
         <activity android:name=".momvid" />
         <activity android:name=".introduction" />
-        <activity android:name=".abhi1"></activity>
+        <activity android:name=".abhi1" />
+        <activity android:name=".abhi2" />
+        <activity android:name=".abhi3" />
+        <activity android:name=".abhi4" />
+        <activity android:name=".abhi5" />
+        <activity android:name=".abhi6" />
+        <activity android:name=".abhivoice2" />
+        <activity android:name=".abhivoice3" />
+        <activity android:name=".abhivoice4" />
+        <activity android:name=".abhivoice" />
+        <activity android:name=".abhivoice6" />
+        <activity android:name=".abhivoice5" />
+        <activity android:name=".abhivid" />
+        <activity android:name=".harsh1" />
+        <activity android:name=".harsh2" />
+        <activity android:name=".harsh3" />
+        <activity android:name=".harsh4" />
+        <activity android:name=".harshvoice1" />
+        <activity android:name=".harshvoice2" />
+        <activity android:name=".harshvoice3" />
+        <activity android:name=".harshvid" />
+        <activity android:name=".endingvideo"></activity>
     </application>
 
 </manifest>

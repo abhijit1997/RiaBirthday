@@ -21,7 +21,7 @@ public class yoguvoice extends AppCompatActivity {
     }
     public void yoguvid(View view) {
 
-        Intent intent = new Intent(this, yoguvid.class);
+        Intent intent = new Intent(this, bhabhi1.class);
         startActivity(intent);
 
 
