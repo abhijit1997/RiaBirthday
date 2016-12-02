@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void begin (View view){
-        Intent intent=new Intent(this,Second.class);
+        Intent intent=new Intent(this,introduction.class);
         startActivity(intent);
 
 

@@ -73,7 +73,46 @@
         <activity android:name=".ira1" />
         <activity android:name=".iravoice" />
         <activity android:name=".iravid" />
-        <activity android:name=".nidhi1"></activity>
+        <activity android:name=".nidhi1" />
+        <activity android:name=".nidhivoice" />
+        <activity android:name=".nidhivid" />
+        <activity android:name=".dhruvi1" />
+        <activity android:name=".dhruvi2" />
+        <activity android:name=".dhruvi3" />
+        <activity android:name=".dhruvi4" />
+        <activity android:name=".dhruvivoice" />
+        <activity android:name=".dhruvivid" />
+        <activity android:name=".mom1" />
+        <activity android:name=".mom2" />
+        <activity android:name=".mom3" />
+        <activity android:name=".mom4" />
+        <activity android:name=".mom5" />
+        <activity android:name=".momvoice3" />
+        <activity android:name=".mom6" />
+        <activity android:name=".momvid" />
+        <activity android:name=".introduction" />
+        <activity android:name=".abhi1" />
+        <activity android:name=".abhi2" />
+        <activity android:name=".abhi3" />
+        <activity android:name=".abhi4" />
+        <activity android:name=".abhi5" />
+        <activity android:name=".abhi6" />
+        <activity android:name=".abhivoice2" />
+        <activity android:name=".abhivoice3" />
+        <activity android:name=".abhivoice4" />
+        <activity android:name=".abhivoice" />
+        <activity android:name=".abhivoice6" />
+        <activity android:name=".abhivoice5" />
+        <activity android:name=".abhivid" />
+        <activity android:name=".harsh1" />
+        <activity android:name=".harsh2" />
+        <activity android:name=".harsh3" />
+        <activity android:name=".harsh4" />
+        <activity android:name=".harshvoice1" />
+        <activity android:name=".harshvoice2" />
+        <activity android:name=".harshvoice3" />
+        <activity android:name=".harshvid" />
+        <activity android:name=".endingvideo"></activity>
     </application>
 
 </manifest>
