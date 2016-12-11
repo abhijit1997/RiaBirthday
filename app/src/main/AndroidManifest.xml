@@ -2,117 +2,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.riabirthday">
 
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".QuizActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".Second"
-            android:label="@string/title_activity_second"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".third"
-            android:label="@string/title_activity_third"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".fifth" />
-        <activity android:name=".sixth" />
-        <activity android:name=".khatervideo" />
-        <activity android:name=".seventh" />
-        <activity android:name=".sarkarvoicenote" />
-        <activity android:name=".eight" />
-        <activity android:name=".aayush1" />
-        <activity android:name=".aayush2" />
-        <activity android:name=".aayush3" />
-        <activity android:name=".aayush4" />
-        <activity android:name=".aayushvoicenote" />
-        <activity android:name=".aayushvideo" />
-        <activity android:name=".ashray1" />
-        <activity android:name=".ashray2" />
-        <activity android:name=".ashrayvoicenote" />
-        <activity android:name=".ashrayvideo" />
-        <activity android:name=".chachivoicenote" />
-        <activity android:name=".shail1" />
-        <activity android:name=".shailvoicenote" />
-        <activity android:name=".shailvideo" />
-        <activity android:name=".ninth" />
-        <activity android:name=".friendsvideo" />
-        <activity android:name=".manasi1" />
-        <activity android:name=".manasi2" />
-        <activity android:name=".manasi3" />
-        <activity android:name=".manasi4" />
-        <activity android:name=".khatervoicenote" />
-        <activity android:name=".chachivideo" />
-        <activity android:name=".manasivoicenote" />
-        <activity android:name=".gomi1" />
-        <activity android:name=".gomivoicenote" />
-        <activity android:name=".gomivid" />
-        <activity android:name=".sanjana" />
-        <activity android:name=".tanvi1" />
-        <activity android:name=".tanvi2" />
-        <activity android:name=".tanvivoicenote" />
-        <activity android:name=".tanvivid" />
-        <activity android:name=".yogu1" />
-        <activity android:name=".yogu2" />
-        <activity android:name=".yogu3" />
-        <activity android:name=".yoguvoice" />
-        <activity android:name=".yoguvid" />
-        <activity android:name=".bhabhi1" />
-        <activity android:name=".bhabhivoice" />
-        <activity android:name=".isha1" />
-        <activity android:name=".ishavoice" />
-        <activity android:name=".ishavid" />
-        <activity android:name=".ira1" />
-        <activity android:name=".iravoice" />
-        <activity android:name=".iravid" />
-        <activity android:name=".nidhi1" />
-        <activity android:name=".nidhivoice" />
-        <activity android:name=".nidhivid" />
-        <activity android:name=".dhruvi1" />
-        <activity android:name=".dhruvi2" />
-        <activity android:name=".dhruvi3" />
-        <activity android:name=".dhruvi4" />
-        <activity android:name=".dhruvivoice" />
-        <activity android:name=".dhruvivid" />
-        <activity android:name=".mom1" />
-        <activity android:name=".mom2" />
-        <activity android:name=".mom3" />
-        <activity android:name=".mom4" />
-        <activity android:name=".mom5" />
-        <activity android:name=".momvoice3" />
-        <activity android:name=".mom6" />
-        <activity android:name=".momvid" />
-        <activity android:name=".introduction" />
-        <activity android:name=".abhi1" />
-        <activity android:name=".abhi2" />
-        <activity android:name=".abhi3" />
-        <activity android:name=".abhi4" />
-        <activity android:name=".abhi5" />
-        <activity android:name=".abhi6" />
-        <activity android:name=".abhivoice2" />
-        <activity android:name=".abhivoice3" />
-        <activity android:name=".abhivoice4" />
-        <activity android:name=".abhivoice" />
-        <activity android:name=".abhivoice6" />
-        <activity android:name=".abhivoice5" />
-        <activity android:name=".abhivid" />
-        <activity android:name=".harsh1" />
-        <activity android:name=".harsh2" />
-        <activity android:name=".harsh3" />
-        <activity android:name=".harsh4" />
-        <activity android:name=".harshvoice1" />
-        <activity android:name=".harshvoice2" />
-        <activity android:name=".harshvoice3" />
-        <activity android:name=".harshvid" />
-        <activity android:name=".endingvideo"></activity>
+        <activity android:name=".VideoActivity" />
     </application>
 
 </manifest>
